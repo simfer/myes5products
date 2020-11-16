@@ -3,4 +3,4 @@ applications:
 - name: myes5products-srv
   path: target/myes5products-exec.jar
   env:
-    SET_LOGGING_LEVEL: '{ROOT: DEBUG, com.sap.cloud.sdk: DEBUG, my.company: DEBUG}'
+    SET_LOGGING_LEVEL: '{ROOT: DEBUG, com.sap: DEBUG, my.company: DEBUG}'
